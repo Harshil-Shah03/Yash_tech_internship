@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <title>Document</title>
+</head>
+<body onload="">
+   <!-- A) The <button> element should alert "Hello" when someone clicks on it.  -->
+
+    <button onclick="Animal('lionness','tiger','dog');">Click me!</button>
+    <script>
+       
+       //B) When the button is clicked, the function "myFunction" should be executed.
+
+       function hello()
+        {
+            alert("hello")
+        }
+//         C) Execute the function named Animal. Use function declaration and function expressions
+// 	input - ("Lion", Tiger, Dog)
+
+                function animal(){
+                var i=0;
+                for(i=0;i<arguments.length;i++){
+                    alert(arguments[i]);
+                }
+                }
+// 	Output - Animal kingdom has {Lion} {Tiger} and {Dog}
+// D) Execute the function named Animal. Use Arrow functio
+
+                Animal = (...arguments)=>{
+                    for (let i=0;i<arguments.length;i++)
+                    {
+                        alert(arguments[i]);
+                    }
+                }
+// 	input - ("Lion", Tiger, Dog)
+// 	Output - Animal kingdom has {Lion} {Tiger} and {Dog}
+
+    </script>
+</body>
+</html>
