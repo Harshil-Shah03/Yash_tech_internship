@@ -1,0 +1,12 @@
+#container{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: aquamarine;
+}
+.small-square{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: darkgreen;
+}
