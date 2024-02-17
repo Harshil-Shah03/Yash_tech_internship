@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:100px;
+}
+
+button{
+    font-size: 5em;
+}
+
+.images{
+    height: 600px;
+
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Login</title>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <input type="text" class="fname" required>
+            <label for="fname">fname</label>
+
+            <input type="text" class="lname" required>
+            <label for="lname">lname</label>
+            <br>
+            
+            <input type="radio" id="Male" name="Gender" value=0 required>
+            <label for="Male">Male</label><br>
+
+            <input type="radio" id="Female" name="Gender" value=1 required>
+            <label for="Female">Female</label><br>
+
+            <input type="text" class="email" required>
+            <label for="email">Email</label>
+            <br>
+            <input type="password" class="password" required>
+            <label for="password">Password</label>
+
+            <input type="password" class="confirm" required>
+            <label for="password">Confirm Password</label>
+            
+
+            <br>
+            <input type="checkbox" id="accept" required>
+            <label for="accept">Terms and condition</label>
+
+            <br>
+            <button>Submit</button>
+
+
+        </form>
+    </div>
+    <script src="form.js"></script>
+    
+</body>
+</html>
+<!-- First Name – It should be alphanumeric only(use Regex here) + Required validation.
+// Last Name – It should be characters only(use Regex here) + Required validation.
+// Gender – Radio Button (Male & Female) Required validation
+// Email ID – Required + Email pattern match
+// Password – It should minimum 8 characters with at least one uppercase Mandatory.
+// Confirm password – should match the password + Required
+// Terms and condition – checkbox (Required Validation)
+// Submit Button – Display error message while clicking on submit button if validation rules are not passed.
+// Once all the validation rules passes then display the values filled inside a table. In this case user registration form will be hidden and the table will be displayed. -->
