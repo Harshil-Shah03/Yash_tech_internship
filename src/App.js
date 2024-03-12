@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react"
+import { ReactDOM } from "react-dom/client"
+// import Animal from "./components/Animals"
+// import Bird from "./components/birds"
+// import Employee from "./components/employees"
+// import User from "./components/users"
+import Display from "./components/LivingThings"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default function App(props){
+    return (<div>
+        {/* <Animal name="Lion"/>
+        <Bird name="cuckoo"/>
+        <Employee name="Austin"/>
+        <User name="Jane"/> */}
+        <Display/>
+    </div>)
 }
-
-export default App;
